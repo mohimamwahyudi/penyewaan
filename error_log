@@ -1,0 +1,1 @@
+[02-Jan-2021 17:04:11 Asia/Jakarta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/trunojoy/public_html/pemweb/18132/koneksi/koneksi.php on line 7
