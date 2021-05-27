@@ -13,7 +13,7 @@
   
  	try{
 
-  $coon = new PDO('mysql:host=kprikaryasehat.site;dbname=kprikary_resto','kprikary_kuliah','unijoyo2020');
+  $coon = new PDO('mysql:host=localhost;dbname=penyewaan','root','');
   $coon -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
    $tambah = $coon->query("INSERT INTO 18132_mpenyewaan (id_sewa, id_user, tgl_sewa,tgl_kembali, lama_sewa, id_mobil,status) VALUES (NULL,'".$_SESSION['id']."', '$tgl_sewa','$tgl_kembali' ,'$lama', '$ids','disewa');");
